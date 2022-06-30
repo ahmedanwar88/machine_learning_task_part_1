@@ -19,6 +19,12 @@ This repository includes part 1 solution of the Machine Learning task.
     - In addition to Stanford NER model, I used also the NER model present in NLTK, as well as that present in Spacy. It has been observed that Stanford NER model shows the best results for a statistical model.
     - I used a transformer based NER model from Spacy library, and compared its results to the Stanford NER model.
 
+3. Evaluation
+    - I used precision, recall and F1-score to evaluate the predictions of the two models against the ground truth for each entity.
+    - I calculated precision for each named entity (Location, Person and Organization) as: How many predicted entities by the model correctly appear in the ground truth for that named entity, and divided that number by the total number of predicted entities by the models.
+    - I calculated recall for each named entity (Location, Person and Organization) as: From the ground truth entities, how many entities correctly appear in the model prediction, and divided that number by the total number of ground truth entities.
+    - I calculated F1-score as the harmonic mean of precision and recall, in order to get a number representing the balance between them.
+
 ## Results
 
 1. Stanford Named Entity Recognition Statistical Model
