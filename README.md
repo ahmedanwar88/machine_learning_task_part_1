@@ -40,3 +40,9 @@ Precision: 0.828 	 Recall: 0.868 	 F1-score: 0.848
 *Organizations
                     
 Precision: 0.684 	 Recall: 0.763 	 F1-score: 0.722
+
+Entity | Precision | Recall | F1-score
+ ------------ | ------------- | ------------ | ------------- 
+Persons | 0.984 | 0.849 | 0.912 
+Locations | 0.828 | 0.868 | 0.848
+Organizations | 0.684 | 0.763 | 0.722
