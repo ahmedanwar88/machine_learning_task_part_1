@@ -19,6 +19,11 @@ Precision: 0.972 	 Recall: 0.898 	 F1-score: 0.934
 
 Precision: 0.944 	 Recall: 0.792 	 F1-score: 0.861
 
+Entity | Precision | Recall | F1-score
+ ------------ | ------------- | ------------ | ------------- 
+Persons | 0.964 | 0.839 | 0.897 
+Locations | 0.972 | 0.898 | 0.934
+Organizations | 0.944 | 0.792 | 0.861
 
 2. Transformer Based Model using Spacy
 
