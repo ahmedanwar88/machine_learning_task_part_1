@@ -1,6 +1,14 @@
 # machine_learning_task_part_1
 This repository includes part 1 solution of the Machine Learning task.
 
+##Steps
+
+1. Data cleaning and preparation
+2. Named entities extraction using statistical and transformer based models
+3. Evaluation of the models by comparing the extracted named entities to the ground truth labels
+
+##Approach
+
 ## Results
 
 1. Stanford Named Entity Recognition Statistical Model
