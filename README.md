@@ -50,3 +50,9 @@ Organizations | 0.684 | 0.763 | 0.722
 - Stanford NER statistical model shows better *Locations* F1-score result (0.934) compared to Transformer based model (0.848).
 
 - Stanford NER statistical model shows better *Organizations* F1-score result (0.861) compared to Transformer based model (0.722).
+
+- The transformer based solution processed the data much faster than the Stanford NER solution. The transformer based solution takes 0.16s on average to process 1 sentence on the CPU. The Stanford NER solution takes 3s on average to process 1 sentence on the CPU.
+
+- If runtime is an important metric based on the application, I think that the transformer based solution is better as its runtime is low and its results are good.
+
+- If runtime is not so much important based on the application, I think that the Stanford NER solution is better as its results are very good in all named entities (Persons, Locations and Organizations).
