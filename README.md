@@ -4,13 +4,20 @@ This repository includes part 1 solution of the Machine Learning task.
 ## Steps
 
 1. Data cleaning and preparation
-    - I used BeautifulSoup to clean the data from all tags and get raw text.
-    - Extracted the paragraphs from the cleaned text and extracted the sentences from each paragraph, resulting in 2578 sentences.
-    - Extracted the labels (named entities) from the HTML file using BeautifulSoup and added them to a dictionary with keys corresponding to the entities (Locations, Persons and Organizations) and the values of each key are the words present in the HTML file.
 2. Named entities extraction using statistical and transformer based models
 3. Evaluation of the models by comparing the extracted named entities to the ground truth labels
 
 ## Approach
+
+1. Data cleaning and preparation
+    - I used BeautifulSoup to clean the data from all tags and get raw text.
+    - Extracted the paragraphs from the cleaned text and extracted the sentences from each paragraph, resulting in 2578 sentences.
+    - Extracted the labels (named entities) from the HTML file using BeautifulSoup and added them to a dictionary with keys corresponding to the entities (Locations, Persons and Organizations) and the values of each key are the words present in the HTML file.
+
+2. Named entities extraction using statistical and transformer based models
+    - I used Stanford Named Entity Recognition model as a statistical model which uses a Conditional Random Field (CRF) model.
+    - In addition to Stanford NER model, I used also the NER model present in NLTK, as well as that present in Spacy. It has been observed that Stanford NER model shows the best results for a statistical model.
+    - I used a transformer based NER model from Spacy library, and compared its results to the Stanford NER model.
 
 ## Results
 
