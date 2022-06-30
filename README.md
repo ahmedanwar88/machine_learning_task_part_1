@@ -56,3 +56,8 @@ Organizations | 0.684 | 0.763 | 0.722
 - If runtime is an important metric based on the application, I think that the transformer based solution is better as its runtime is low and its results are good.
 
 - If runtime is not so much important based on the application, I think that the Stanford NER solution is better as its results are very good in all named entities (Persons, Locations and Organizations).
+
+## Problems and Improvements
+- I faced a problem in aligning each word in the data and its named entity to the predicted words and named entities.
+- The approach that I took is to extract all the named entities from the data (ground truth) and get the predictions of the models. Then, I evaluated the models by the correctly predicted named entities that appeared in the ground truth and calculated precision, recall and F1-score as described before.
+- Better alignment between the data ground truth and model predictions can give more accurate results.
