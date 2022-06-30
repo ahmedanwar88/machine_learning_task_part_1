@@ -5,7 +5,7 @@ This repository includes part 1 solution of the Machine Learning task.
 
 1. Data cleaning and preparation
     - I used BeautifulSoup to clean the data from all tags and get raw text.
-    - Extracted the paragraphs from the cleaned text and extracted the sentences from each paragraph.
+    - Extracted the paragraphs from the cleaned text and extracted the sentences from each paragraph, resulting in 2578 sentences.
     - Extracted the labels (named entities) from the HTML file using BeautifulSoup and added them to a dictionary with keys corresponding to the entities (Locations, Persons and Organizations) and the values of each key are the words present in the HTML file.
 2. Named entities extraction using statistical and transformer based models
 3. Evaluation of the models by comparing the extracted named entities to the ground truth labels
