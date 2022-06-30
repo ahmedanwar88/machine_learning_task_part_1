@@ -42,3 +42,11 @@ Entity | Precision | Recall | F1-score
 Persons | 0.984 | 0.849 | 0.912 
 Locations | 0.828 | 0.868 | 0.848
 Organizations | 0.684 | 0.763 | 0.722
+
+## Comparison
+
+- Transformer based model shows better *Persons* F1-score result (0.912) compared to Stanford NER statistical model (0.897).
+
+- Stanford NER statistical model shows better *Locations* F1-score result (0.934) compared to Transformer based model (0.848).
+
+- Stanford NER statistical model shows better *Organizations* F1-score result (0.861) compared to Transformer based model (0.722).
