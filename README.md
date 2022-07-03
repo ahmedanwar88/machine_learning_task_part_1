@@ -4,7 +4,7 @@ This repository includes part 1 solution of the Machine Learning task.
 ## Repository structure
 
 - The solution for this part is provided in the notebook: Machine_Learning_Engineer_Task_Part_1.ipynb.
-- The cleaned data from HTML tags can be found in the file: news_sample_ner_cleaned.txt.
+- The cleaned data from the HTML tags can be found in the file: news_sample_ner_cleaned.txt.
 
 ## Steps
 
